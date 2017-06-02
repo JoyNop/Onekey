@@ -1,0 +1,14 @@
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\JAVA环境变量一键生成.exe.config
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\JAVA环境变量一键生成.exe
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\JAVA环境变量一键生成.pdb
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.exe
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.pdb
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.TrustInfo.xml
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\JAVA环境变量一键生成.exe.manifest
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\JAVA环境变量一键生成.application
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.exe.manifest
+E:\Visual Studio 2015\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\JAVA环境变量一键生成.application
