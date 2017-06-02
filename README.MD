@@ -20,7 +20,7 @@
 
 2、新建CLASSPATH，设置变量值.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 
-###v_beta_1.2
+### v_beta_1.2
 - 支持自动生成环境配置文件
 - 生成环境配置文件后会提示自动复制到粘贴板
 -  酱文件新建文本复制后，修改后缀为.BAT[批处理文件]
