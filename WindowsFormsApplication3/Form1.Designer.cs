@@ -35,11 +35,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -101,15 +101,6 @@
             this.textBox1.Size = new System.Drawing.Size(279, 21);
             this.textBox1.TabIndex = 1;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(192, 102);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(197, 12);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "by renny酱 https://www.notex.xyz";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label6);
@@ -123,16 +114,27 @@
             this.groupBox1.Text = "主程序";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(8, 64);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(347, 12);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "请务必选择正确的JDK路径，否则会导致解密失败无法正常使用！";
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.linkLabel1);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(13, 110);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(378, 117);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "辅助区";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label5
             // 
@@ -145,15 +147,16 @@
     "在桌面新建文本文档（txt)粘贴解密内容\r\n3、保存文档，更改后缀扩展名【txt】改为【bat】\r\n4、以管理员身份运行.bat文件，回车即可\r\n（杀毒软件或阻" +
     "止程序进行，请关闭杀毒后使用！）";
             // 
-            // label6
+            // linkLabel1
             // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(8, 64);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(347, 12);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "请务必选择正确的JDK路径，否则会导致解密失败无法正常使用！";
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(175, 102);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(197, 12);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "by renny酱 https://www.notex.xyz";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Form1
             // 
@@ -171,7 +174,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "JAVA环境搭建生成器 beta_1.2";
+            this.Text = "JAVA环境搭建生成器 beta_1.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -190,11 +193,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
