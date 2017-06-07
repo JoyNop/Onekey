@@ -20,6 +20,11 @@
 
 2、新建CLASSPATH，设置变量值.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 
+### v_beta_1.3
+- 更新Linklabel 
+- 修改部分字体位置
+- 优化主界面
+
 ### v_beta_1.2
 - 支持自动生成环境配置文件
 - 生成环境配置文件后会提示自动复制到粘贴板
